@@ -26,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import smartknower from "./company/smartknower.jpeg";
+import ciya from "./company/ciya.png";
+import zht from "./company/zht.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +61,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  smartknower,
+  ciya,
+  zht,
   carrent,
   jobit,
   tripguide,

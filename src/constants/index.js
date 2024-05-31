@@ -19,6 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
+    smartknower,
+    ciya,
+    zht,
     carrent,
     jobit,
     tripguide,
@@ -118,7 +121,7 @@ import {
     {
       title: "Android Developer Intern",
       company_name: "Smartknower",
-      icon: starbucks,
+      icon: smartknower,
       iconBg: "#383E56",
       date: "Feb 2022 - April 2022",
       points: [
@@ -129,7 +132,7 @@ import {
     {
       title: "Android Developer Trainee",
       company_name: "Ciya Technologies",
-      icon: tesla,
+      icon: ciya,
       iconBg: "#E6DEDD",
       date: "March 2021 - April 2022",
       points: [
@@ -141,7 +144,7 @@ import {
     {
       title: "Android Developer Intern",
       company_name: "Zylicon Hackdev Technologies",
-      icon: shopify,
+      icon: zht,
       iconBg: "#383E56",
       date: "June 2023 - Sept 2023",
       points: [
