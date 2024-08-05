@@ -49,12 +49,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like React, Flutter, and Android SDK. I
-        orchestrated agile development strategies and implemented Git version
-        control system, resulting in a 40% boost in team productivity and a 25%
-        decrease in software development timeline. Let's work together to bring
-        your ideas to life!
+        I am a skilled Full Stack Developer with a strong foundation in the MERN
+        stack, proficient in building dynamic and scalable web and mobile
+        applications. With expertise in Node.js, Express.js, MongoDB, React.js
+        and Kotlin. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
