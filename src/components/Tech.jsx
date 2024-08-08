@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { skills, technologies } from "../constants";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { textVariant } from "../utils/motion";
+import { fadeIn, slideIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 
 const Container = styled.div`
@@ -122,6 +122,32 @@ const SkillImage = styled.img`
   height: 24px;
 `;
 
+const TechCard = ({ skill, index }) => {
+  return (
+    <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+      >
+        <Skill>
+          <SkillTitle>{skill.title}</SkillTitle>
+          <SkillList>
+            {skill.skills.map((item) => (
+              <SkillItem key={item.name}>
+                <SkillImage src={item.image} />
+                {item.name}
+              </SkillItem>
+            ))}
+          </SkillList>
+        </Skill>
+      </div>
+    </motion.div>
+  );
+};
+
 const Tech = () => {
   return (
     <Container id="skills">
@@ -132,18 +158,8 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>Skills</h2>
       </motion.div>
       <SkillsContainer>
-        {skills.map((skill) => (
-          <Skill>
-            <SkillTitle>{skill.title}</SkillTitle>
-            <SkillList>
-              {skill.skills.map((item) => (
-                <SkillItem key={item.name}>
-                  <SkillImage src={item.image} />
-                  {item.name}
-                </SkillItem>
-              ))}
-            </SkillList>
-          </Skill>
+        {skills.map((skill, index) => (
+          <TechCard key={skill.id} skill={skill} index={index} />
         ))}
       </SkillsContainer>
     </Container>

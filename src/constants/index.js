@@ -17,10 +17,10 @@ import {
   smartknower,
   ciya,
   zht,
-  carrent,
   jobit,
   tripguide,
   threejs,
+  expensetracker,
 } from "../assets";
 
 export const navLinks = [
@@ -55,6 +55,7 @@ const services = [
 
 export const skills = [
   {
+    id: 101,
     title: "Frontend",
     skills: [
       {
@@ -104,6 +105,7 @@ export const skills = [
     ],
   },
   {
+    id: 102,
     title: "Backend",
     skills: [
       {
@@ -138,6 +140,7 @@ export const skills = [
     ],
   },
   {
+    id: 103,
     title: "Mobile",
     skills: [
       {
@@ -168,6 +171,7 @@ export const skills = [
     ],
   },
   {
+    id: 104,
     title: "Others",
     skills: [
       {
@@ -330,9 +334,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Expense Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Personal Expense Tracker application allows users to manage their expenses efficiently.",
     tags: [
       {
         name: "react",
@@ -343,12 +347,22 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expressjs",
+        color: "text-yellow-500",
+      },
+      {
+        name: "nodejs",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "text-orange-500",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: expensetracker,
+    source_code_link:
+      "https://github.com/Biswajeet-23/mern-personal-expense-tracker",
+    category: "web app",
   },
   {
     name: "Job IT",
@@ -370,6 +384,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    category: "web app",
   },
   {
     name: "Trip Guide",
@@ -391,6 +406,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    category: "mobile app",
   },
 ];
 
