@@ -17,10 +17,12 @@ import {
   smartknower,
   ciya,
   zht,
-  jobit,
-  tripguide,
   threejs,
   expensetracker,
+  blogcover,
+  gamehub,
+  chatcover,
+  plantcover,
 } from "../assets";
 
 export const navLinks = [
@@ -365,48 +367,113 @@ const projects = [
     category: "web app",
   },
   {
-    name: "Job IT",
+    name: "Blog App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "App that allows users to create, edit, and delete blog posts, with features for user authentication and responsive design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "expressjs",
+        color: "text-yellow-500",
+      },
+      {
+        name: "nodejs",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "text-orange-500",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blogcover,
+    source_code_link: "https://github.com/Biswajeet-23/mern-blog-app",
     category: "web app",
   },
   {
-    name: "Trip Guide",
+    name: "Game arena",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a dynamic Game Hub application using React, TypeScript, and Chakra UI, integrated with the RAWG API for fetching game data.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "text-yellow-500",
+      },
+      {
+        name: "chakraui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "tailwind",
+        color: "text-orange-500",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gamehub,
+    source_code_link: "https://github.com/Biswajeet-23/react-game-hub",
+    category: "web app",
+  },
+  {
+    name: "Chat App",
+    description:
+      "Chat application for Android using Kotlin and Firebase. This app replicates core messaging features including real-time chat, multimedia sharing, and user authentication.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "retrofit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coroutine",
+        color: "text-orange-500",
+      },
+    ],
+    image: chatcover,
+    source_code_link: "https://github.com/Biswajeet-23/Whats-App-Clone-Android",
     category: "mobile app",
+  },
+  {
+    name: "Livefeed Plant Disease Detection",
+    description:
+      "This app provides real-time analysis of plant health by capturing images through the device's camera and leveraging TensorFlow Lite for on-device machine learning. ",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow-lite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coroutine",
+        color: "text-orange-500",
+      },
+    ],
+    image: plantcover,
+    source_code_link:
+      "https://github.com/Biswajeet-23/Plant-Disease-Detection-LiveFeed",
+    category: "ml",
   },
 ];
 
