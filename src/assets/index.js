@@ -35,9 +35,16 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import expensetracker from "./expensetracker.jpg";
 import blogcover from "./blogcover.jpg";
-import gamehub from "./gamecover.png";
+import gamehub from "./gamecover.jpg";
+import chatwebcover from "./chatwebcover.png";
+import googledoccover from "./googledoccover.png";
+import cryptocover from "./cryptocover.jpg";
+import githubcover from "./githubcover.jpg";
+import ecomcover from "./ecomcover.jpg";
 import chatcover from "./chatcover.png";
 import plantcover from "./plantcover.png";
+import objectcover from "./objectcover.png";
+import birdcover from "./birdcover.png";
 
 export {
   logo,
@@ -75,6 +82,13 @@ export {
   expensetracker,
   blogcover,
   gamehub,
+  chatwebcover,
+  googledoccover,
+  cryptocover,
+  githubcover,
+  ecomcover,
   chatcover,
   plantcover,
+  objectcover,
+  birdcover,
 };

@@ -21,8 +21,15 @@ import {
   expensetracker,
   blogcover,
   gamehub,
+  chatwebcover,
+  googledoccover,
   chatcover,
+  cryptocover,
+  githubcover,
+  ecomcover,
   plantcover,
+  objectcover,
+  birdcover,
 } from "../assets";
 
 export const navLinks = [
@@ -427,6 +434,54 @@ const projects = [
     category: "web app",
   },
   {
+    name: "Chat  Web App",
+    description:
+      "Developed the backend for a real-time chat application using Node.js and Express.js. The backend supports essential functionalities such as user authentication, message storage, and real-time communication.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "text-yellow-500",
+      },
+      {
+        name: "postman",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chatwebcover,
+    source_code_link: "https://github.com/Biswajeet-23/mern-chat-app",
+    category: "web app",
+  },
+  {
+    name: "Google Docs Clone",
+    description:
+      "The app allows users to create, edit, and format text documents with real-time updates and a user-friendly interface.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "crossplatform",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "green-text-gradient",
+      },
+    ],
+    image: googledoccover,
+    source_code_link: "https://github.com/Biswajeet-23/google-docs-web",
+    category: "web app",
+  },
+  {
     name: "Chat App",
     description:
       "Chat application for Android using Kotlin and Firebase. This app replicates core messaging features including real-time chat, multimedia sharing, and user authentication.",
@@ -453,7 +508,85 @@ const projects = [
     category: "mobile app",
   },
   {
-    name: "Livefeed Plant Disease Detection",
+    name: "Crypto Coins App",
+    description:
+      "A Native Android Crypto app that displays cryptocurrency details and fetches data from CoinMarketCap Api.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "coinmarketcapapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "retrofit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coroutine",
+        color: "text-orange-500",
+      },
+    ],
+    image: cryptocover,
+    source_code_link: "https://github.com/Biswajeet-23/Crypto_Coins",
+    category: "mobile app",
+  },
+  {
+    name: "Github Search App",
+    description:
+      "Github Search is an Android application developed using Kotlin programming language, which allows users to search for Github users and repositories using Github API.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "githubapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "retrofit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coroutine",
+        color: "text-orange-500",
+      },
+    ],
+    image: githubcover,
+    source_code_link: "https://github.com/Biswajeet-23/Github-Search-Api",
+    category: "mobile app",
+  },
+  {
+    name: "Ecommerce App",
+    description:
+      "User friendly e-commerce app with firebase authentication and flutter framework. The app includes functionalities such as product browsing, search, cart management, and secure checkout.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "crossplatform",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "text-orange-500",
+      },
+    ],
+    image: ecomcover,
+    source_code_link: "https://github.com/Biswajeet-23/E_commerceApp",
+    category: "mobile app",
+  },
+  {
+    name: "Plant Disease Detection",
     description:
       "This app provides real-time analysis of plant health by capturing images through the device's camera and leveraging TensorFlow Lite for on-device machine learning. ",
     tags: [
@@ -473,6 +606,51 @@ const projects = [
     image: plantcover,
     source_code_link:
       "https://github.com/Biswajeet-23/Plant-Disease-Detection-LiveFeed",
+    category: "ml",
+  },
+  {
+    name: "Object Detection",
+    description:
+      "The app captures live video feed through the device's camera and utilizes TensorFlow Lite to identify and classify objects within the frame.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow-lite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coroutine",
+        color: "text-orange-500",
+      },
+    ],
+    image: objectcover,
+    source_code_link:
+      "https://github.com/Biswajeet-23/Object-Detection-Realtime",
+    category: "ml",
+  },
+  {
+    name: "Bird Classification",
+    description:
+      "The app utilizes the device's camera to capture live video and applies TensorFlow Lite models to identify and classify different bird species on the fly.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow-lite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coroutine",
+        color: "text-orange-500",
+      },
+    ],
+    image: birdcover,
+    source_code_link: "https://github.com/Biswajeet-23/Image-Classification",
     category: "ml",
   },
 ];
