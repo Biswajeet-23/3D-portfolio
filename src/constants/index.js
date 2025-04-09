@@ -16,6 +16,7 @@ import {
   docker,
   smartknower,
   ciya,
+  at,
   zht,
   threejs,
   expensetracker,
@@ -55,6 +56,10 @@ const services = [
   {
     title: "Mobile Developer",
     icon: mobile,
+  },
+  {
+    title: "Javascript Developer",
+    icon: web,
   },
   {
     title: "UI/UX Developer",
@@ -278,14 +283,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Android Developer Intern",
-    company_name: "Smartknower",
-    icon: smartknower,
-    iconBg: "#383E56",
-    date: "Feb 2022 - April 2022",
+    title: "Software Engineer",
+    company_name: "Avadhuta Technologies",
+    icon: at,
+    iconBg: "#E6DEDD",
+    date: "Sep 2024 - Current",
     points: [
-      "Oversaw the development of an e-commerce application with a team of 2 developers resulting in an estimated 20% increase in customer acquisition.",
-      "Deployed Firebase’s real-time database and storage features to improve user experience by 40% and ensure security by implementing Firebase authentication resulting in a 50% reduction in security-related complaints.",
+      "Built and integrated Google OAuth and Linked In authentication system in a NestJS API, managing 5,000+ user accounts with token-based session persistence and enforcing robust security protocols",
+      "Engineered a Razorpay payment processing workflow in a NestJS backend, and implemented webhook-driven real-time updates for subscription lifecycle management.",
+      "Architected and streamlined Google Calendar synchronization features, supporting active users in managing and syncing events with real-time updates.",
+    ],
+  },
+  {
+    title: "Android Developer Intern",
+    company_name: "Zylicon Hackdev Technologies",
+    icon: zht,
+    iconBg: "#383E56",
+    date: "June 2023 - Sept 2023",
+    points: [
+      "Contributed to the development of Heka Healthy You Android app, which has accumulated over 500+ downloads and maintaining an impressive 4.9-star rating on the Google Play Store.",
+      "Conducted extensive compatibility testing across 50 device models on various Android versions to ensure seamless operation and optimal performance.",
+      "Optimized app performance by eliminating deprecated packages, enhancing visual aesthetics, and seamlessly improving user experience by adding transition animation resulting in a 30% improvement in response time.",
     ],
   },
   {
@@ -302,14 +320,13 @@ const experiences = [
   },
   {
     title: "Android Developer Intern",
-    company_name: "Zylicon Hackdev Technologies",
-    icon: zht,
+    company_name: "Smartknower",
+    icon: smartknower,
     iconBg: "#383E56",
-    date: "June 2023 - Sept 2023",
+    date: "Feb 2022 - April 2022",
     points: [
-      "Contributed to the development of Heka Healthy You Android app, which has accumulated over 500+ downloads and maintaining an impressive 4.9-star rating on the Google Play Store.",
-      "Conducted extensive compatibility testing across 50 device models on various Android versions to ensure seamless operation and optimal performance.",
-      "Optimized app performance by eliminating deprecated packages, enhancing visual aesthetics, and seamlessly improving user experience by adding transition animation resulting in a 30% improvement in response time.",
+      "Oversaw the development of an e-commerce application with a team of 2 developers resulting in an estimated 20% increase in customer acquisition.",
+      "Deployed Firebase’s real-time database and storage features to improve user experience by 40% and ensure security by implementing Firebase authentication resulting in a 50% reduction in security-related complaints.",
     ],
   },
 ];

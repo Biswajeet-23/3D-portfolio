@@ -7,6 +7,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import anime_bg from "./anime_bg.png";
+import anime_char from "./anime_char.gif";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -28,6 +30,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import smartknower from "./company/smartknower.jpeg";
 import ciya from "./company/ciya.png";
+import at from "./company/at.png";
 import zht from "./company/zht.png";
 
 import carrent from "./carrent.png";
@@ -56,6 +59,8 @@ export {
   github,
   menu,
   close,
+  anime_bg,
+  anime_char,
   css,
   docker,
   figma,
@@ -75,6 +80,7 @@ export {
   tesla,
   smartknower,
   ciya,
+  at,
   zht,
   carrent,
   jobit,

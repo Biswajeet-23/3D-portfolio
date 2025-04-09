@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import { slideIn } from "../utils/motion";
-import SpaceshipCanvas from "./canvas/Spaceship";
+import { anime_bg, anime_char } from "../assets";
 
 const Hero = () => {
   return (
@@ -17,34 +15,25 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Biswajeet</span>
+            Hi, I'm{" "}
+            <div>
+              <span className="text-[#915EFF]">Biswajeet</span>
+            </div>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop web apps, user <br className="sm:block hidden" />
-            interfaces and mobile applications.
+            I develop web apps, <br className="md:block hidden" />
+            user interfaces and <br className="md:block hidden" />
+            mobile applications.
           </p>
         </div>
       </div>
 
+      <img
+        src={anime_char}
+        alt="Background"
+        className="absolute bottom-0 top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 object-cover w-[300px] md:w-[440px] lg:w-[480px] h-auto max-w-full rounded-3xl mb-5"
+      />
       {/* <ComputersCanvas /> */}
-
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
-      </div>
     </section>
   );
 };
